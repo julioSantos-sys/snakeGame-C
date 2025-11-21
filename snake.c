@@ -12,7 +12,6 @@ int drawGrid(int screenHeight, int screenWidth, int widthGrid, int heightGrid){
                 DrawLine(i, 0, i, screenHeight, GRAY); 
             }
 }
-
 int drawWall(int screenHeight, int screenWidth, int widthGrid, int heightGrid){
     for (int y=0; y<=screenHeight-heightGrid; y+=heightGrid){
         for (int x=0; x<=screenWidth-widthGrid; x+=widthGrid){
